@@ -1,0 +1,57 @@
+nav a {
+	font-size:18px;
+  color: black;
+  text-align:right;
+  text-decoration: none;
+}
+nav a:after {
+  color:#aaa;
+  content: "|";
+  margin-right: 20px;
+  margin-left: 20px;
+}
+nav a:last-child:after {
+  content:"";
+}
+
+nav a:hover {
+    color: #F00;
+}
+
+a:link {
+   color: #00F;
+   text-decoration: none;
+}
+a:visited {
+   color: #00F;
+   text-decoration: none;
+}
+a:hover {
+   color: #00F;
+   text-decoration: underline;
+}
+a:active {
+   color: #00F;
+   text-decoration: underline;
+}
+.contactus {
+   float:left;
+   width: 100%;
+   margin-top: 150px;
+   margin-bottom: 150px;
+}
+.footer {
+  background-color: rgb(250, 250, 250);
+  position: fixed; 
+  height: 50px;
+  left: 0%;
+  bottom: 0%;
+  width: 100%;
+}
+.header {
+  background-color: rgb(250, 250, 250);
+  position: fixed; 
+  left: 0%;
+  top: 0%;
+  width: 100%;
+}
